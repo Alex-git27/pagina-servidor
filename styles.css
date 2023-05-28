@@ -1,0 +1,126 @@
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #000;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Dynamic Font', cursive;
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Dynamic Font', cursive;
+
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+  background-color: rgb(228, 225, 225);
+  font-family: 'Dynamic Font', cursive;
+  font-size: 40px;
+  color: rgb(184, 73, 73);
+  text-align: center;
+  line-height: 4.0;
+  background-image: url('Imagenes/FondoAvion.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+
+
+
+.navbar-brand {
+  font-size:80px;
+}
+
+.nav-link {
+  font-size: 40px;
+  margin-right: 112px
+}
+
+/* Estilos del encabezado */
+.jumbotron {
+  background-image: url('header-bg.jpg');
+  background-size: cover;
+  color: rgb(221, 34, 34);
+  padding: 100px;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.jumbotron p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.jumbotron .btn-primary {
+  font-size: 24px;
+  padding: 15px 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilos de la sección de destinos */
+.destinations {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.destinations h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.destinations p {
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Estilos de la sección de reservaciones */
+.reservations {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.reservations h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.reservations p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.reservations form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+/* Otros estilos interactivos o de tu elección */

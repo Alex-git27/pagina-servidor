@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresa de Viajes </title>
+  <!-- Incluir los archivos CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="javascript.js"></script>
+
+</head>
+
+<body>
+ 
+
+     <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Empresa de Viajes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <a class="nav-link" href="#">Inicio</a>
+        <a class="nav-link" href="#">Destinos</a>
+        <a class="nav-link" href="#">Reservaciones</a>
+        <a class="nav-link" href="#">Contacto</a>
+      </div>
+    
+  </nav>
+
+  <!-- Encabezado -->
+  <header class="jumbotron text-center" style="background-color: #e0e0e0;">
+    <div class="container">
+      <h1 class="display-4" style="font-size: 48px; font-family: 'Arial', sans-serif; font-style: italic;">Empresa de
+        Viajes - Wanderlust Escapes</h1>
+      <p class="lead" style="font-size: 24px; font-family: 'Arial', sans-serif; font-style: italic;">Explora nuevos
+        destinos y vive experiencias únicas</p>
+      <a href="#" class="btn btn-primary btn-lg">Reserva ahora</a>
+    </div>
+  </header>
+
+
+  <!-- Sección de Destinos -->
+  <section class="destinations">
+    <div class="container">
+      <div class="row">
+        <div class="small-12 medium-4 columns">
+          <img src="Imagenes/Destino1.JPG" alt="Destino 1">
+
+          <h3>Destino 1</h3>
+          <div class="col-md-4">
+            <p>¿Estás buscando una experiencia única llena de aventuras, cultura y paisajes sorprendentes? ¡No busques
+              más! En nuestra agencia de viajes, te ofrecemos la oportunidad de explorar
+              la vibrante ciudad de Medellín, uno de los destinos más fascinantes de América Latina. 1
+              Sumérgete en la historia y la transformación de Medellín mientras recorres sus encantadoras calles y
+              descubres su rica cultura. Admira la belleza de sus parques, como el famoso
+              Parque Arví, donde podrás disfrutar de la naturaleza exuberante y realizar emocionantes actividades al
+              aire libre</p>
+            <img src="destino1.jpg" alt="Destino 1" class="img-fluid">
+          </div>
+
+          <div class="col-md-4">
+            <img src="Imagenes/Destino2.JPG" alt="Destino 2" class="img-fluid">
+            <h3>Destino 2</h3>
+            <p>Si estás buscando una experiencia inolvidable llena de historia, belleza arquitectónica y playas
+              paradisíacas, no puedes dejar de visitar Cartagena. En nuestra agencia de viajes,
+              te invitamos a explorar esta joya colonial ubicada en la costa caribeña de Colombia.
+              Sumérgete en la magia de las calles empedradas y los coloridos edificios de estilo colonial que te
+              transportarán a tiempos pasados. Admira la imponente arquitectura de la ciudad
+              amurallada, declarada Patrimonio de la Humanidad por la UNESCO, y déjate cautivar por sus plazas
+              encantadoras y hermosas iglesias.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="Imagenes/Destino3.JPG" alt="Destino 3" class="img-fluid">
+            <h3>Destino 3</h3>
+            <p>¿Estás buscando una experiencia llena de música, color y alegría? ¡No busques más! En nuestra agencia de
+              viajes, te invitamos a explorar la encantadora ciudad de Barranquilla,
+              uno de los destinos más festivos de Colombia.
+              Sumérgete en el espíritu caribeño mientras recorres las animadas calles de Barranquilla. Descubre su rica
+              cultura y tradiciones que se reflejan en sus festivales y celebraciones,
+              como el famoso Carnaval de Barranquilla, reconocido como Patrimonio Cultural Inmaterial de la Humanidad
+              por la UNESCO. Disfruta de la música, el baile y los desfiles coloridos que
+              hacen de esta fiesta una experiencia única.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Sección de Reservaciones -->
+  <section class="reservations">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h2>Reserva tu vuelo ahora</h2>
+          <p>Selecciona tu destino y fecha de viaje</p>
+          <form>
+            <div class="mb-3">
+              <label for="destino" class="form-label">Destino:</label>
+              <select id="destino" class="form-select">
+                <option value="destino1">Destino 1</option>
+                <option value="destino2">Destino 2</option>
+                <option value="destino3">Destino 3</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="fecha" class="form-label">Fecha de viaje:</label>
+              <input type="date" id="fecha" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Buscar vuelos</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>&copy; 2023 Empresa de Viajes en Avión. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Incluir los archivos JavaScript de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
